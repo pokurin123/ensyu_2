@@ -22,11 +22,11 @@ import psycopg2
 
 app = Flask(__name__)
 #配置したDBよって変更
-host = "localhost"
-port = "5432"
-dbname = "ensyu2"
-user = "postgres"
-password = "taiki0831"
+host = "ホスト名"
+port = "ポート番号"
+dbname = "db名"
+user = "ユーザ名"
+password = "パスワード"
 
 conn = psycopg2.connect(\
     "host=" + host + \
